@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#nav2{
+    display: flex;
+    gap: 50px;
+}
+#nav3{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+img{
+    height: 80px;
+}
+#nav h3{
+    text-transform: uppercase;
+}
+#nav h4{
+    text-transform: uppercase;
+}
+#nav button{
+    color: #000;
+    background-color: #fff;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#main h1{
+    font-size: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 99; */
+}
+#main h1 span{
+    background-color: rgb(145, 24, 24);
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin: 0 30px;
+}
+#main h1:nth-child(2){
+   margin-top: 50px;
+}
+#main #left-img{
+    height: 300px;
+    top: 10%;
+    position: absolute;
+    left: 6%;
+}
+#main #right-img{
+    height: 300px;
+    bottom: 10%;
+    position: absolute;
+    right: 6%;
+}
+#main #left-img2{
+    height: 280px;
+    width: 200px;
+    top: 60%;
+    position: absolute;
+    left: 18%;
+}
+h5{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 25px;
+
+}
